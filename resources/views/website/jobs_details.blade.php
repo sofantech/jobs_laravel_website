@@ -6,16 +6,16 @@
         <div class="regesteration">
             <div class="login">
                 <i class=""></i>
-                <a href="login.html">تسجيل الدخول</a>
+                <a href="/login">تسجيل الدخول</a>
             </div>
             <div class="seperator">|</div>
             <div class="sign-in">
-                <a href="signIn.html">حساب جديد</a>
+                <a href="/signin">حساب جديد</a>
 
             </div>
         </div>
         <div class="profile">
-          <a href="dashboard-personal-info.html" class="ri-user-3-fill"></a>
+          <a href="/dashboard" class="ri-user-3-fill"></a>
         </div>
         <!-- <div class="top-links">
             <a href="#">المقالات</a>
@@ -40,22 +40,22 @@
           <div class="collapse navbar-collapse" id="navbarSupportedContent">
             <ul class="navbar-nav me-auto mb-2 mb-lg-0">
               <li class="nav-item">
-                <a class="nav-link active" aria-current="page" href="/">الرئيسة</a>
+                <a class="nav-link" aria-current="page" href="index.html">الرئيسة</a>
               </li>
               <li class="nav-item">
-                <a class="nav-link" href="/jobs">كل الوظائف</a>
+                <a class="nav-link" href="jobs.html">كل الوظائف</a>
               </li>
               <li class="nav-item">
-                <a class="nav-link" href="/services">خدماتنا</a>
+                <a class="nav-link" href="services.html">خدماتنا</a>
               </li>
               <li class="nav-item">
-                <a class="nav-link" href="/about">من نحن</a>
+                <a class="nav-link" href="aboutus.html">من نحن</a>
               </li>
               <li class="nav-item">
-                <a class="nav-link" href="/contact">اتصل بنا</a>
+                <a class="nav-link" href="contactus.html">اتصل بنا</a>
               </li>
               <li class="nav-item">
-                <a class="nav-link" href="/personalCv">الملف الشخصي</a>
+                <a class="nav-link" href="personalCv.html">الملف الشخصي</a>
               </li>
             </ul>
             <form class="navbar-btn">
@@ -65,6 +65,7 @@
           </div>
         </div>
       </nav>
+    <!--end header-->
     
    
 

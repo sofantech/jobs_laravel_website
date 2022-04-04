@@ -14,7 +14,7 @@
             </div>
         </div>
         <div class="profile">
-          <a href="dashboard-personal-info.html" class="ri-user-3-fill"></a>
+          <a href="/dashboard" class="ri-user-3-fill"></a>
         </div>
         <!-- <div class="top-links">
             <a href="#">المقالات</a>

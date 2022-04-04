@@ -26,8 +26,10 @@ Route::view('/login', 'website/login' );
 Route::view('/signin', 'website/signIn' );
 Route::view('/services', 'website/services' );
 Route::view('/personalCv', 'website/personalCv' );
+Route::view('/layout', 'website/layout' );
 
 //dashboard
+Route::view('/dashboard', 'admin/dashboard-add-job' );
 Route::view('/add_job', 'admin/dashboard-add-job' );
 Route::view('/add_user', 'admin/dashboard-add-users' );
 Route::view('/add_category', 'admin/dashboard-add-category' );
