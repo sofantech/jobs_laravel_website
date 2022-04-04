@@ -24,3 +24,5 @@ Route::view('/contact', 'website/contactus' );
 Route::view('/about', 'website/aboutus' );
 Route::view('/login', 'website/login' );
 Route::view('/signin', 'website/signIn' );
+Route::view('/services', 'website/services' );
+Route::view('/personalCv', 'website/personalCv' );

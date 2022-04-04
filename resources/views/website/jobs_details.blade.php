@@ -40,22 +40,22 @@
           <div class="collapse navbar-collapse" id="navbarSupportedContent">
             <ul class="navbar-nav me-auto mb-2 mb-lg-0">
               <li class="nav-item">
-                <a class="nav-link" aria-current="page" href="index.html">الرئيسة</a>
+                <a class="nav-link active" aria-current="page" href="/">الرئيسة</a>
               </li>
               <li class="nav-item">
-                <a class="nav-link" href="jobs.html">كل الوظائف</a>
+                <a class="nav-link" href="/jobs">كل الوظائف</a>
               </li>
               <li class="nav-item">
-                <a class="nav-link" href="services.html">خدماتنا</a>
+                <a class="nav-link" href="/services">خدماتنا</a>
               </li>
               <li class="nav-item">
-                <a class="nav-link" href="aboutus.html">من نحن</a>
+                <a class="nav-link" href="/about">من نحن</a>
               </li>
               <li class="nav-item">
-                <a class="nav-link" href="contactus.html">اتصل بنا</a>
+                <a class="nav-link" href="/contact">اتصل بنا</a>
               </li>
               <li class="nav-item">
-                <a class="nav-link" href="personalCv.html">الملف الشخصي</a>
+                <a class="nav-link" href="/personalCv">الملف الشخصي</a>
               </li>
             </ul>
             <form class="navbar-btn">
@@ -65,7 +65,6 @@
           </div>
         </div>
       </nav>
-    <!--end header-->
     
    
 
