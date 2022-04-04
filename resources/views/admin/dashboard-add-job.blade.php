@@ -28,27 +28,27 @@
             </a>
           </li>
           <li>
-            <a href="dashboard-person-experince.html">
+            <a href="/add_user" >
               <i class='bx bx-box' ></i>
-              <span class="links_name">الخبرات</span>
+              <span class="links_name">المستخدمين</span>
             </a>
           </li>
           <li>
-            <a href="dashboard-person-skills.html"  class="active">
+            <a href="/add_job"  class="active" >
               <i class='bx bx-list-ul' ></i>
-              <span class="links_name">المهارات</span>
+              <span class="links_name">الوظائف</span>
             </a>
           </li>
           <li>
-            <a href="dashboard-person-qualification.html">
+            <a href="/add_category">
               <i class='bx bx-pie-chart-alt-2' ></i>
-              <span class="links_name">المؤهل الدراسي</span>
+              <span class="links_name">الاقسام</span>
             </a>
           </li>
           <li>
             <a href="dashboard-person-courses.html">
               <i class='bx bx-coin-stack' ></i>
-              <span class="links_name">الدورات</span>
+              <span class="links_name">الطلبات</span>
             </a>
           </li>
           <li class="log_out">
@@ -74,17 +74,27 @@
           </nav>
        </div>
        <div class="row container person-skills">
-          <h2 class="text-center fs-4">المهارات</h2>
-          <a type="button"  data-bs-toggle="modal" data-bs-target="#addModal">اضافة مهارة</a>
+          <h2 class="text-center fs-4">الوظائف</h2>
+          <a type="button"  data-bs-toggle="modal" data-bs-target="#addModal">اضافة وظيفة</a>
           <div class="modal fade" id="addModal" tabindex="-1" aria-labelledby="exampleModalLabel" aria-hidden="true">
             <div class="modal-dialog">
               <div class="modal-content">
                 <div class="modal-header">
-                  <h5 class="modal-title flex-grow-1" id="exampleModalLabel">إضافة مهارة</h5>
+                  <h5 class="modal-title flex-grow-1" id="exampleModalLabel">إضافة وظيفة</h5>
                   <button type="button" class="btn-close" data-bs-dismiss="modal" aria-label="Close"></button>
                 </div>
                 <div class="modal-body">
-                  <input class="w-100" type="text">
+                  <input class="w-100" type="text" placeholder="المسمى الوظيفي">
+                </div>
+                <div class="modal-body">
+                  <textarea class="w-100" type="text" placeholder="تفاصيل الوظيفة"></textarea>
+                </div>
+                <div class="modal-body">
+                  <input class="w-100" type="text" placeholder="موقع الوظيفة">
+                </div>
+                <div class="modal-body">
+                  <label>تاريخ انتهاء التقديم</label>
+                  <input class="w-100" type="date">
                 </div>
                 <div class="modal-footer">
                   <button type="button" class="btn btn-secondary" data-bs-dismiss="modal">إغلاق</button>
@@ -157,9 +167,10 @@
     <!--end dashboard-->
 
     
-    <script src="assets/js/bootstrap.js"></script>
-    <script src="assets/js/jquery-3.6.0.min.js"></script>
-    <script src="assets/js/popper.min.js"></script>
-    <script src="assets/js/script.js"></script>
+    <script src="{{url('assets/js/bootstrap.js')}}"></script>
+    <script src="{{url('assets/js/jquery-3.6.0.min.js')}}"></script>
+    <script src="{{url('assets/js/popper.min.js')}}"></script>
+    <script src="{{url('assets/js/script.js')}}"></script>
+    <script src="{{url('assets/js/datatables-demo.js')}}"></script>
 </body>
 </html>
