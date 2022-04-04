@@ -1,4 +1,5 @@
-<x-header/>
+@extends('components.master')
+@section('content')
 <body>
     <!--start header-->
     <!--start top breadcrumb header-->
@@ -148,5 +149,4 @@
     
     <!--end job details -->
     
-
-   <x-footer/>
+@endsection
